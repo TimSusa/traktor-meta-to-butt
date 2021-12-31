@@ -26,7 +26,7 @@ icecast -c icecast.xml
 
 
 # Configure Traktor DJ Software for Broadcasting
-Start Traktor. Put exact Info for Port and mount point there, as the password is hackme. Please change it accordingly to your xml config for icecast (Securtiy Please)
+Start Traktor. Put exact Info for Port and mount point into the server settings. The Metadafields there are free to input and the proxy settings we do not care. As the password is hackme. Please change it accordingly to your xml-config for icecast (Securtiy Please)
 
 Take the smallest bitrate, as we are just only interested in the metadata, quality does not matter.
 
@@ -37,10 +37,20 @@ In order to connect with the server push the Antenna Button one time. Wait 3 sec
 <img width="452" alt="Screenshot 2021-12-31 at 14 52 33" src="https://user-images.githubusercontent.com/8963529/147826730-3dd91c39-64e3-4e1f-844e-65f7ca9cbbd1.png">
 
 
+# Run the Script
+```
+chmod +x spawnTrackInfo.sh 
+./spawnTrackInfo.sh 
+```
+
+No a watcher should listen to play list changes, and write them after extra parsing into currentTrackName.txt, which is your ticket to BUTT. 
 
 
 
 # Settings in BUTT
-
-
+Tell the application to listen to file changes.
 ![Screenshot 2021-12-31 at 14 48 16](https://user-images.githubusercontent.com/8963529/147826520-9bedbe65-06cd-4303-8644-8d62a469623e.png)
+
+
+
+# VOILA! :-)
