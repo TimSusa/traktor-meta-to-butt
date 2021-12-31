@@ -29,7 +29,7 @@ icecast -c icecast.xml
 
 
 # Configure Traktor DJ Software for Broadcasting
-Start Traktor. Put exact Info for Port and mount point into the server settings. The Metadafields there are free to input and the proxy settings we do not care. As the password is hackme. Please change it accordingly to your xml-config for icecast (Securtiy Please)
+Start Traktor. Put exact Info for Port and mount point into the server settings. You can set the ip of your icecast server or just localhost, if you are on the same station. The Metadafields there are free to input and the proxy settings we do not care. As the password is hackme. Please change it accordingly to your xml-config for icecast (Securtiy Please)
 
 Take the smallest bitrate, as we are just only interested in the metadata, quality does not matter.
 
