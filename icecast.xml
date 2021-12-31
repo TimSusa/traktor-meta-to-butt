@@ -1,0 +1,37 @@
+<!-- Sets up an icecast mount point on your own machine -->
+<icecast>
+    <limits>
+        <sources>2</sources>
+    </limits>
+    <authentication>
+        <source-password>hackme</source-password>
+        <relay-password>hackme</relay-password>
+        <admin-user>admin</admin-user>
+        <admin-password>hackme</admin-password>
+    </authentication>
+
+    <mount>
+        <mount-name>/traktor.ogg</mount-name>
+    </mount>
+
+    <hostname>192.168.0.2</hostname>
+    <location>earth</location>
+    <fileserve>1</fileserve>
+
+    <listen-socket>
+        <port>8000</port>
+    </listen-socket>
+    <fileserve>1</fileserve>
+    <paths>
+        <logdir>./logs</logdir>
+        <webroot>./web</webroot>
+        <adminroot>./admin</adminroot>
+        <alias source="/" dest="/status.xsl"/>
+    </paths>
+    <logging>
+        <accesslog>access.log</accesslog>
+        <errorlog>error.log</errorlog>
+        <playlistlog>playlist.log</playlistlog>
+        <loglevel>1</loglevel>        <!-- 4 Debug, 3 Info, 2 Warn, 1 Error -->
+    </logging>
+</icecast>
