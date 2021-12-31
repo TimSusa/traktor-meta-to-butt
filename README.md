@@ -8,6 +8,7 @@ During my internet radio shows, I need a solution which just puts Track and Arti
 Have FUN!
 
 
+
 # Problem
 Traktor broadcasts only icecast with ogg stream format. Furthermore is no icecast server shipped so I just put one there:
 
@@ -46,7 +47,9 @@ chmod +x spawnTrackInfo.sh
 ./spawnTrackInfo.sh 
 ```
 
-A file watcher should listen to play list changes, and write them after extra parsing into currentTrackName.txt, which is your ticket to BUTT.
+A "file watcher" listens to played tracks in the logs, parse them out, and write them after extra parsing into currentTrackName.txt, which is your ticket to BUTT.
+
+I nice benefit, you can exactly use this text file as your playlist.
 
 
 # Settings in BUTT
