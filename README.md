@@ -3,7 +3,7 @@ Broadcast your Artist and Tracknames from Traktor to BUTT
 
 
 # Goal
-During my internet radio shows, I need a solution which just puts Track and Artist Names out of Traktor DJ to Butt automatically. For me I was almost shocked how manny not working approaches out are there and even people trying still to come up making money by that. Not we me LOL I did not reinvent the wheel, I just provide a free solution to share with all of you in the community. No blackbox code, no bla bla bal :-) 
+During my internet radio shows, I need a solution which just puts Track and Artist Names out of Traktor DJ to Butt automatically. For me I was almost shocked how manny not working approaches out are there and even people trying still to come up making money by that. Not with me LOL I did not reinvent the wheel, I just provide a free solution to share with all of you in the community. No blackbox code, no bla bla bal :-) 
 
 Have FUN!
 
