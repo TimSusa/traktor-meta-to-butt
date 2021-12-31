@@ -46,8 +46,7 @@ chmod +x spawnTrackInfo.sh
 ./spawnTrackInfo.sh 
 ```
 
-No a watcher should listen to play list changes, and write them after extra parsing into currentTrackName.txt, which is your ticket to BUTT. 
-
+A file watcher should listen to play list changes, and write them after extra parsing into currentTrackName.txt, which is your ticket to BUTT.
 
 
 # Settings in BUTT
