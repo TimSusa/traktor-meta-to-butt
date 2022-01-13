@@ -1,9 +1,12 @@
-#  Traktor META to BUTT
+# Traktor Meta To Butt
+
+
+<img width="100" alt="Screenshot 2021-12-31 at 14d 30 07" src="https://user-images.githubusercontent.com/8963529/147838853-55029b93-cabe-4e55-87d1-6e2efb5d5448.png"><img width="80" alt="Screenshot 2021-12-31 at 14dd 30 07" style="text-align:right;" src="https://user-images.githubusercontent.com/8963529/147838810-1a4d8d56-9d4a-45aa-b608-1bbc08a54275.png"><img width="100" alt="Screenshot 2021-12-31 at 14dd 30 07" src="https://user-images.githubusercontent.com/8963529/147838746-e877f952-f8f5-454a-9e0a-4e3c64481335.png">
+
 Broadcast your Artist and Tracknames from Traktor to BUTT 
 
-
 # Goal
-During my internet radio shows, I need a solution which just puts Track and Artist Names out of Traktor DJ to Butt automatically. For me I was almost shocked how manny not working approaches out are there and even people trying still to come up making money by that. Not with me LOL I did not reinvent the wheel, I just provide a free solution to share with all of you in the community. No blackbox code, no bla bla bal :-) 
+During DJing in radio shows I was too long on the keyboard manually putting in Artists and Tracknames with my fingers to BUTT. I was searching for a solution, which just does it automatically. Now here it is. Even already battle tested.
 
 Have FUN!
 
