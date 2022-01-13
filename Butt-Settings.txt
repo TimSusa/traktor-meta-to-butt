@@ -1,0 +1,166 @@
+#This is a configuration file for butt (broadcast using this tool)
+
+[main]
+bg_color = 252645120
+txt_color = -256
+server = 104.238.140.101
+srv_ent = 104.238.140.101
+icy = Tim Susa´s Weekly Beats
+icy_ent = Tim Susa´s Weekly Beats
+num_of_srv = 1
+num_of_icy = 1
+song_path = /Users/minitim/development/traktor-meta-to-butt/currentTrack.txt
+song_update = 1
+song_delay = 20
+song_prefix = 
+song_suffix = 
+read_last_line = 1
+app_update_service = 0
+app_update = 0
+app_artist_title_order = 0
+gain = 1.000000
+silence_threshold = 0
+signal_threshold = 0
+check_for_update = 0
+start_agent = 0
+minimize_to_tray = 0
+connect_at_startup = 0
+force_reconnecting = 0
+ic_charset = 
+log_file = /Users/minitim/Downloads/buttlog.log
+
+[audio]
+device = 2
+dev_remember = 0
+samplerate = 44100
+bitrate = 320
+channel = 2
+left_ch = 1
+right_ch = 1
+codec = mp3
+mono_to_stereo = 0
+resample_mode = 0
+silence_level = 50.000000
+signal_level = 50.000000
+disable_dithering = 0
+buffer_ms = 50
+dev_name = MG-XU [Core Audio]
+
+[record]
+bitrate = 320
+codec = wav
+start_rec = 1
+stop_rec = 1
+rec_after_launch = 0
+sync_to_hour  = 0
+split_time = 0
+filename = Tim Susa´s Weekly Beats on soundzmuzicradio_%Y%m%d-%H%M%S.wav
+silence_threshold = 0
+signal_threshold = 0
+folder = /Volumes/BACKY/audio/music/tim-susa-mixsets/
+
+[tls]
+cert_file = 
+cert_dir = 
+
+[dsp]
+equalizer = 0
+gain1 = 0.000000
+gain2 = 0.000000
+gain3 = 0.000000
+gain4 = 0.000000
+gain5 = 0.000000
+gain6 = 0.000000
+gain7 = 0.000000
+gain8 = 0.000000
+gain9 = 0.000000
+gain10 = 0.000000
+compressor = 1
+aggressive_mode = 1
+threshold = -13.500000
+ratio = 2.400000
+attack = 0.130000
+release = 1.380000
+makeup_gain = 10.220000
+
+[gui]
+attach = 0
+ontop = 1
+hide_log_window = 0
+remember_pos = 1
+x_pos = 1017
+y_pos = 708
+lcd_auto = 0
+start_minimized = 0
+lang = 0
+vu_mode = 0
+
+[mp3_codec_stream]
+enc_quality = 3
+stereo_mode = 0
+bitrate_mode = 0
+vbr_quality = 4
+vbr_min_bitrate = 32
+vbr_max_bitrate = 320
+
+[mp3_codec_rec]
+enc_quality = 3
+stereo_mode = 0
+bitrate_mode = 0
+vbr_quality = 4
+vbr_min_bitrate = 32
+vbr_max_bitrate = 320
+
+[vorbis_codec_stream]
+bitrate_mode = 0
+vbr_quality = 0
+vbr_min_bitrate = 0
+vbr_max_bitrate = 0
+
+[vorbis_codec_rec]
+bitrate_mode = 0
+vbr_quality = 0
+vbr_min_bitrate = 0
+vbr_max_bitrate = 0
+
+[opus_codec_stream]
+bitrate_mode = 1
+quality = 0
+audio_type = 0
+bandwidth = 0
+
+[opus_codec_rec]
+bitrate_mode = 1
+quality = 0
+audio_type = 0
+bandwidth = 0
+
+[aac_codec_stream]
+bitrate_mode = 0
+afterburner = 0
+profile = 2
+
+[aac_codec_rec]
+bitrate_mode = 0
+afterburner = 0
+profile = 2
+
+[104.238.140.101]
+address = 104.238.140.101
+port = 8005
+password = timmsusa@googlemail.com:tim10521
+type = 0
+tls = 0
+cert_hash = 
+mount = (none)
+usr = (none)
+
+[Tim Susa´s Weekly Beats]
+pub = 0
+description = Nice to have you here! :-)
+genre = House / Techno
+url = www.internet.de
+irc = 
+icq = 
+aim = 
+

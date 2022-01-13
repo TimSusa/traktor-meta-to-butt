@@ -1,7 +1,7 @@
 <!-- Sets up an icecast mount point on your own machine -->
 <icecast>
     <limits>
-        <sources>2</sources>
+        <sources>4</sources>
     </limits>
     <authentication>
         <source-password>hackme</source-password>
